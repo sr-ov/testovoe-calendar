@@ -36,19 +36,3 @@ export const Cell = styled.button<{ isActive?: boolean; isNotEmpty: boolean }>`
 			(props.isActive && '#60a5fa') || (props.isNotEmpty && '#bfdbfe') || '#fff'};
 	} ;
 `
-
-export const Hours = styled.ul`
-	background-color: #fff;
-	position: relative;
-	z-index: 10;
-	display: grid;
-	font-size: 14px;
-`
-
-export const HoursItem = styled.li`
-	color: gray;
-	line-height: 1;
-	height: 40px;
-	display: flex;
-	align-items: flex-end;
-`
